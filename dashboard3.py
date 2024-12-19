@@ -107,7 +107,7 @@ with col2:
 
 
 
-st.header('Comparison for two courses')
+st.header('Comparison for Two Courses')
 
 course_titles = df['Title'].unique()
 selected_course_1 = st.selectbox('Select the first course', course_titles, key='course1')
